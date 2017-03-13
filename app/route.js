@@ -9,11 +9,11 @@
                 redirectTo: '/home'
             })
             .when('/home', {
-                // caseInsensitiveMatch: true,
+                caseInsensitiveMatch: true,
                 templateUrl: 'index2.html'
             })
             .when('/services', {
-                // caseInsensitiveMatch: true,
+                caseInsensitiveMatch: true,
                 templateUrl: 'app/modules/services/templates/index.tmpl.html'
             });
     });
