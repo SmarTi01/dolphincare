@@ -1,12 +1,20 @@
 (function() {
-    app.config(function($routeProvider) {
+    'use strict'
+    app.config(function($routeProvider, $locationProvider) {
+
+        $locationProvider.hashPrefix('');
+
         $routeProvider
-            .when("/", {
-                templateUrl: "../index.html"
+            .when('/', {
+                redirectTo: '/home'
             })
-            // .when('/services', {
-            //     caseInsensitiveMatch: true,
-            //     templateUrl: 'app/modules/services/templates/index.tmpl.html'
-            // })
-    })
+            .when('/home', {
+                // caseInsensitiveMatch: true,
+                templateUrl: 'index2.html'
+            })
+            .when('/services', {
+                // caseInsensitiveMatch: true,
+                templateUrl: 'app/modules/services/templates/index.tmpl.html'
+            });
+    });
 })();
