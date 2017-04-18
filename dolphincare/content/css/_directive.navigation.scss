@@ -1,0 +1,37 @@
+.menu-bar {
+    height: 30px;
+    margin-top: 7px;
+    margin-bottom: 15px;
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        // background-color: #333;
+        background-color: #fff;
+        // border-bottom: 1px solid #f9f9f9;
+        li {
+            float: left;
+            border-right: 1px solid #ddd;
+        }
+        li:last-child {
+            border-right: 0px;
+        }
+        li a {
+            display: block;
+            // color: white;
+            color: 000;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font: {
+                weight: 600;
+                size: 16px;
+            }
+        }
+        /* Change the link color to #111 (black) on hover */
+        li a:hover {
+            border-bottom: 4px solid #ddd;
+        }
+    }
+}

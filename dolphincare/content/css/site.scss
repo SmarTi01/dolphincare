@@ -1,0 +1,20 @@
+@import '../../libs/bootstrap-sass/assets/stylesheets/_bootstrap';
+@import '_default';
+@import '_override.bootstrap';
+@import '_directive.header';
+@import '_directive.footer';
+@import '_directive.navigation';
+@import '_module.home';
+body {
+    font: Arial, Helvetica, sans-serif;
+    h1,
+    h2 {
+        margin-top: 0px;
+    }
+    background: {
+        // color: #dae8f0
+    }
+    .main {
+        margin-bottom: 50px;
+    }
+}

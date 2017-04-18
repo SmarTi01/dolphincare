@@ -1,0 +1,23 @@
+footer {
+    text-align: right;
+    border: 1px solid rgba(43, 77, 86, 0.2);
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 15px;
+    box-shadow: 0px 1px 10px rgba(43, 77, 86, 0.2);
+    background: #fff;
+    a {
+        padding: 0 10px;
+        color: #888;
+        border-right: 1px solid #888;
+        &:hover {
+            text-decoration: none;
+        }
+        &:last-child {
+            border-right: none;
+        }
+    }
+}

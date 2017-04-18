@@ -1,0 +1,13 @@
+  .panel{
+    background-color: $panel-bg-color;
+    border: $panel-border;
+    border-radius: 2px;
+  }
+  
+  
+  
+  @media (min-width: 1200px) {
+    .container {
+      width: 970px;
+    } 
+  }

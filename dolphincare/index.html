@@ -1,0 +1,35 @@
+<html ng-app="app" ng-controller="AppController">
+
+<head>
+
+    <link rel="stylesheet" href="/content/css/site.css">
+
+</head>
+
+<body>
+    <header></header>
+    <navigation></navigation>
+    <div ng-view class="main container"></div>
+    <footer></footer>
+    <!--  Bower -->
+    <script src="/libs/angular/angular.js"></script>
+    <script src="/libs/angular-route/angular-route.js"></script>
+
+    <!-- Core -->
+    <script src="/app/app.js"></script>
+    <script src="/app/route.js"></script>
+
+    <!-- Controllers -->
+    <script src="/app/controllers/app.controller.js"></script>
+
+    <!-- Services -->
+    <script src="/app/modules/services/controllers/services.controller.js"></script>
+
+    <!-- Directives -->
+    <script src="/app/directives/header.directive.js"></script>
+    <script src="/app/directives/footer.directive.js"></script>
+    <script src="/app/directives/navigation.directive.js"></script>
+
+</body>
+
+</html>
