@@ -2,6 +2,7 @@
     height: 30px;
     margin-top: 7px;
     margin-bottom: 15px;
+
     ul {
         list-style-type: none;
         margin: 0;
@@ -34,4 +35,8 @@
             border-bottom: 4px solid #ddd;
         }
     }
+        .selected{
+        border-bottom: 4px solid #ddd!important;
+    }
 }
+

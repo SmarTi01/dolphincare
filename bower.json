@@ -1,18 +1,24 @@
 {
-    "name": "NG-DolphinCare",
-    "description": "",
-    "main": "index.html",
-    "authors": [
-        "Tim Smart"
-    ],
-    "license": "MIT",
-    "homepage": "",
-    "private": true,
-    "ignore": [
-        "**/.*",
-        "node_modules",
-        "bower_components",
-        "libs",
-        "tests"
-    ]
+  "name": "NG-DolphinCare",
+  "description": "",
+  "main": "index.html",
+  "authors": [
+    "Tim Smart"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "libs",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-route": "^1.6.4",
+    "bootstrap": "^3.3.7",
+    "bootstrap-sass": "^3.3.7"
+  }
 }

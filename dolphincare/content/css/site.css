@@ -5849,6 +5849,12 @@ button.close {
       color: #fff;
       text-align: right; }
 
+@media (max-width: 768px) {
+  .contact {
+    display: none; }
+  .logo h1 {
+    display: none; } }
+
 footer {
   text-align: right;
   border: 1px solid rgba(43, 77, 86, 0.2);
@@ -5895,6 +5901,8 @@ footer {
       font-size: 16px; }
     .menu-bar ul li a:hover {
       border-bottom: 4px solid #ddd; }
+  .menu-bar .selected {
+    border-bottom: 4px solid #ddd !important; }
 
 .module_home .underline {
   width: 100%;

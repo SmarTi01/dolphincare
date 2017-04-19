@@ -4,8 +4,9 @@
         return {
             restrict: 'E',
             templateUrl: './app/templates/directive.navigation.tmpl.html',
-            controller: function($scope) {
+            controller: function($scope, globalService) {
 
+            	$scope.global = globalService;
 
             }
         }
